@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.poga {
+    border-radius: 100%;
+    height: 500px;
+    width: 500px;
+    background-color: darkred;
+    font-size: 40px;
+    color: antiquewhite;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+}
+
+.poga:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.poga:active{
+    background-color: green;
+}
